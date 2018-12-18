@@ -12,6 +12,14 @@
 		BEA4CD4821C86B55007267F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA4CD4621C86B55007267F5 /* Main.storyboard */; };
 		BEA4CD4A21C86B56007267F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA4CD4921C86B56007267F5 /* Assets.xcassets */; };
 		BEA4CD4D21C86B56007267F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA4CD4B21C86B56007267F5 /* LaunchScreen.storyboard */; };
+		BEA4CD5621C86E42007267F5 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD5521C86E42007267F5 /* BinaryTree.swift */; };
+		BEA4CD5921C86F3F007267F5 /* ArithmeticTreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD5721C86F3F007267F5 /* ArithmeticTreeViewController.swift */; };
+		BEA4CD5A21C86F3F007267F5 /* ArithmeticTreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA4CD5821C86F3F007267F5 /* ArithmeticTreeViewController.xib */; };
+		BEA4CD5D21C8709A007267F5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD5C21C8709A007267F5 /* String.swift */; };
+		BEA4CD5F21C870B8007267F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD5E21C870B8007267F5 /* Constants.swift */; };
+		BEA4CD6121C8715D007267F5 /* ExpressionTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD6021C8715D007267F5 /* ExpressionTree.swift */; };
+		BEA4CD6321C8754A007267F5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD6221C8754A007267F5 /* Stack.swift */; };
+		BEA4CD6621C87A79007267F5 /* ShuntingYard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA4CD6521C87A79007267F5 /* ShuntingYard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		BEA4CD4921C86B56007267F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA4CD4C21C86B56007267F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA4CD4E21C86B56007267F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA4CD5521C86E42007267F5 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		BEA4CD5721C86F3F007267F5 /* ArithmeticTreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticTreeViewController.swift; sourceTree = "<group>"; };
+		BEA4CD5821C86F3F007267F5 /* ArithmeticTreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArithmeticTreeViewController.xib; sourceTree = "<group>"; };
+		BEA4CD5C21C8709A007267F5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BEA4CD5E21C870B8007267F5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BEA4CD6021C8715D007267F5 /* ExpressionTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionTree.swift; sourceTree = "<group>"; };
+		BEA4CD6221C8754A007267F5 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BEA4CD6521C87A79007267F5 /* ShuntingYard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuntingYard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		BEA4CD4121C86B55007267F5 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				BEA4CD6421C87A6E007267F5 /* Algorithms */,
+				BEA4CD5B21C87084007267F5 /* Utils */,
+				BEA4CD5421C86B5F007267F5 /* DataStructures */,
 				BEA4CD4221C86B55007267F5 /* AppDelegate.swift */,
 				BEA4CD4421C86B55007267F5 /* ViewController.swift */,
 				BEA4CD4621C86B55007267F5 /* Main.storyboard */,
 				BEA4CD4921C86B56007267F5 /* Assets.xcassets */,
 				BEA4CD4B21C86B56007267F5 /* LaunchScreen.storyboard */,
 				BEA4CD4E21C86B56007267F5 /* Info.plist */,
+				BEA4CD5721C86F3F007267F5 /* ArithmeticTreeViewController.swift */,
+				BEA4CD5821C86F3F007267F5 /* ArithmeticTreeViewController.xib */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		BEA4CD5421C86B5F007267F5 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4CD5521C86E42007267F5 /* BinaryTree.swift */,
+				BEA4CD6021C8715D007267F5 /* ExpressionTree.swift */,
+				BEA4CD6221C8754A007267F5 /* Stack.swift */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		BEA4CD5B21C87084007267F5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4CD5C21C8709A007267F5 /* String.swift */,
+				BEA4CD5E21C870B8007267F5 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BEA4CD6421C87A6E007267F5 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4CD6521C87A79007267F5 /* ShuntingYard.swift */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA4CD5A21C86F3F007267F5 /* ArithmeticTreeViewController.xib in Resources */,
 				BEA4CD4D21C86B56007267F5 /* LaunchScreen.storyboard in Resources */,
 				BEA4CD4A21C86B56007267F5 /* Assets.xcassets in Resources */,
 				BEA4CD4821C86B55007267F5 /* Main.storyboard in Resources */,
@@ -135,8 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA4CD6621C87A79007267F5 /* ShuntingYard.swift in Sources */,
 				BEA4CD4521C86B55007267F5 /* ViewController.swift in Sources */,
 				BEA4CD4321C86B55007267F5 /* AppDelegate.swift in Sources */,
+				BEA4CD5D21C8709A007267F5 /* String.swift in Sources */,
+				BEA4CD5921C86F3F007267F5 /* ArithmeticTreeViewController.swift in Sources */,
+				BEA4CD6321C8754A007267F5 /* Stack.swift in Sources */,
+				BEA4CD5621C86E42007267F5 /* BinaryTree.swift in Sources */,
+				BEA4CD6121C8715D007267F5 /* ExpressionTree.swift in Sources */,
+				BEA4CD5F21C870B8007267F5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

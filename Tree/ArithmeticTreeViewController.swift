@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ArithmeticTreeViewController.swift
 //  Tree
 //
 //  Created by Aldo Antonio Martinez Avalos on 12/17/18.
@@ -8,15 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ArithmeticTreeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let arithmeticExpVC = ArithmeticTreeViewController()
-        present(arithmeticExpVC, animated: false, completion: nil)
+        print(ExpressionTree.compute(expression: "((5*6)/2)+(6/2)") ?? 0)
     }
 
-
 }
-
